@@ -2,7 +2,7 @@ import { useState } from "react";
 import PageHeader from "@/components/shared/PageHeader";
 import { StatusBadge, PriorityBadge } from "@/components/shared/Badges";
 import { Button } from "@/components/ui/button";
-import { issues, STATUSES, PRIORITIES, projects, MOCK_USERS } from "@/data/mockData";
+import { issues, STATUSES, PRIORITIES, projects } from "@/data/mockData";
 import { MOCK_USERS as Users } from "@/contexts/AuthContext";
 import { Plus, Filter } from "lucide-react";
 
